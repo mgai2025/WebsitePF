@@ -36,7 +36,7 @@ export default function Hero() {
 
                     {/* Subheading */}
                     <p className="text-lg sm:text-xl text-white/80 mb-10 max-w-2xl leading-relaxed animate-slide-up animation-delay-100">
-                        Trusted by UK and European importers. Backed by 50+ years of team expertise and institutional excellence.
+                        Trusted by UK and European importers. 200+ annual shipments. Led by IIT and IIM alumni with Fortune 500 experience.
                     </p>
 
                     {/* CTAs */}
@@ -47,24 +47,6 @@ export default function Hero() {
                         <Link href="#contact" className="btn-white text-lg px-8 py-4">
                             Schedule a Conversation
                         </Link>
-                    </div>
-
-                    {/* Trust Indicators */}
-                    <div className="mt-16 pt-8 border-t border-white/20 animate-fade-in animation-delay-300">
-                        <div className="grid grid-cols-3 gap-8">
-                            <div>
-                                <div className="text-3xl sm:text-4xl font-bold text-white mb-1">15-20</div>
-                                <div className="text-white/60 text-sm">Monthly Shipments</div>
-                            </div>
-                            <div>
-                                <div className="text-3xl sm:text-4xl font-bold text-white mb-1">50+</div>
-                                <div className="text-white/60 text-sm">Years Team Expertise</div>
-                            </div>
-                            <div>
-                                <div className="text-3xl sm:text-4xl font-bold text-white mb-1">5</div>
-                                <div className="text-white/60 text-sm">Indian States Coverage</div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

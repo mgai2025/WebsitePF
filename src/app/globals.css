@@ -23,7 +23,12 @@
     @apply font-sans text-text-primary bg-secondary antialiased;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-semibold tracking-tight;
   }
 
@@ -34,6 +39,7 @@
 }
 
 @layer components {
+
   /* Button styles */
   .btn {
     @apply inline-flex items-center justify-center px-6 py-3 font-medium rounded-lg transition-all duration-300 ease-out;
@@ -62,7 +68,7 @@
 
   /* Section styles */
   .section {
-    @apply py-20 md:py-28 lg:py-32;
+    @apply py-16 md:py-20 lg:py-24;
   }
 
   .section-heading {
@@ -102,6 +108,7 @@
 }
 
 @layer utilities {
+
   /* Gradient backgrounds */
   .gradient-hero {
     background: linear-gradient(180deg, rgba(45, 138, 115, 0.03) 0%, rgba(255, 255, 255, 0) 100%);

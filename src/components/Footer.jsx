@@ -11,14 +11,10 @@ const footerLinks = {
         { name: 'Industry Insights', href: '#insights' },
         { name: 'Contact Us', href: '#contact' },
     ],
-    legal: [
-        { name: 'Privacy Policy', href: '/privacy' },
-        { name: 'Terms of Service', href: '/terms' },
-    ],
 }
 
 export default function Footer() {
-    const currentYear = new Date().getFullYear()
+    const currentYear = 2024
 
     return (
         <footer className="bg-gray-900 text-white">
@@ -147,15 +143,6 @@ export default function Footer() {
                         © {currentYear} Premium Fresh Exports. All rights reserved.
                     </p>
                     <div className="flex gap-6">
-                        {footerLinks.legal.map((link) => (
-                            <Link
-                                key={link.name}
-                                href={link.href}
-                                className="text-gray-500 hover:text-gray-300 transition-colors duration-200 text-sm"
-                            >
-                                {link.name}
-                            </Link>
-                        ))}
                     </div>
                 </div>
             </div>

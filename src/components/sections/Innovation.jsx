@@ -42,7 +42,7 @@ export default function Innovation() {
                                     <svg className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                                     </svg>
-                                    <span className="text-text-secondary">Real-time shipment visibility with temperature and condition monitoring</span>
+                                    <span className="text-text-secondary">Shipment tracking with real-time alerts and status updates</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <svg className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -80,6 +80,12 @@ export default function Innovation() {
                                     <svg className="w-5 h-5 text-primary/50 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
+                                    <span className="text-text-secondary">Real-time temperature and condition monitoring during transit</span>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                    <svg className="w-5 h-5 text-primary/50 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
                                     <span className="text-text-secondary">Blockchain-enabled traceability from farm to destination port</span>
                                 </li>
                                 <li className="flex items-start gap-3">
@@ -111,7 +117,7 @@ export default function Innovation() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                             </svg>
                             <span className="text-text-secondary">
-                                Our technology roadmap is built to serve scale—from 20 shipments/month today to 100+ in the next 18 months.
+                                Our vision: Become India's leading fresh produce exporter by volume and value to UK and European markets. Technology roadmap designed to scale from current 200+ annual shipments to 200+ per month within 24 months.
                             </span>
                         </div>
                     </div>

@@ -29,7 +29,7 @@ const products = [
     {
         id: 'spices',
         name: 'Spices',
-        description: 'Pure, certified spices with traceability from farm to export',
+        description: 'Pure, certified spices (turmeric, black pepper, cardamom, cumin)',
         image: '/images/products/spices.jpg',
     },
 ]
@@ -56,8 +56,8 @@ export default function Products() {
                     {products.map((product, index) => (
                         <div
                             key={product.id}
-                            className={`card group ${index === products.length - 1 ? 'md:col-span-2 md:max-w-lg md:mx-auto' : ''
-                                }`}
+                            className={`card group ${index === products.length - 1 ? 'md:col-span-2' : ''}`
+                            }
                         >
                             <div className="relative h-64 overflow-hidden">
                                 <Image

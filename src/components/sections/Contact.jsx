@@ -18,6 +18,7 @@ export default function Contact() {
         company: '',
         email: '',
         phone: '',
+        countryCode: '+91',
         interest: '',
         message: '',
     })
@@ -31,6 +32,13 @@ export default function Contact() {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
+
+        // Basic phone validation
+        if (formData.phone && (formData.phone.length < 7 || formData.phone.length > 15)) {
+            alert('Please enter a valid phone number (7-15 digits)')
+            return
+        }
+
         setIsSubmitting(true)
 
         // Simulate form submission
@@ -43,6 +51,7 @@ export default function Contact() {
             company: '',
             email: '',
             phone: '',
+            countryCode: '+91',
             interest: '',
             message: '',
         })
@@ -140,17 +149,39 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <label htmlFor="phone" className="block text-sm font-medium text-text-primary mb-2">
-                                            Phone
+                                            Phone Number
                                         </label>
-                                        <input
-                                            type="tel"
-                                            id="phone"
-                                            name="phone"
-                                            value={formData.phone}
-                                            onChange={handleChange}
-                                            className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 text-text-primary"
-                                            placeholder="+44 123 456 7890"
-                                        />
+                                        <div className="flex gap-2">
+                                            <select
+                                                name="countryCode"
+                                                value={formData.countryCode}
+                                                onChange={handleChange}
+                                                className="w-1/3 px-2 py-3 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 text-text-primary text-sm"
+                                            >
+                                                <option value="+91">IN (+91)</option>
+                                                <option value="+44">UK (+44)</option>
+                                                <option value="+1">US (+1)</option>
+                                                <option value="+971">UAE (+971)</option>
+                                                <option value="+61">AU (+61)</option>
+                                                <option value="+33">FR (+33)</option>
+                                                <option value="+49">DE (+49)</option>
+                                                <option value="+31">NL (+31)</option>
+                                                <option value="+65">SG (+65)</option>
+                                                <option value="">Other</option>
+                                            </select>
+                                            <input
+                                                type="tel"
+                                                id="phone"
+                                                name="phone"
+                                                value={formData.phone}
+                                                onChange={(e) => {
+                                                    const val = e.target.value.replace(/\D/g, '');
+                                                    handleChange({ target: { name: 'phone', value: val } });
+                                                }}
+                                                className="w-2/3 px-4 py-3 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 text-text-primary"
+                                                placeholder="1234567890"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
 

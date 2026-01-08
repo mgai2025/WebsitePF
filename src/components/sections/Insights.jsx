@@ -3,32 +3,32 @@ import Link from 'next/link'
 
 const articles = [
     {
-        slug: 'future-supply-chains-europe',
         title: 'The Future of Fresh Produce Supply Chains in Europe',
         excerpt: 'How evolving consumer preferences and regulatory changes are reshaping agricultural imports across European markets.',
         image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=500&fit=crop',
         category: 'Industry Trends',
+        path: '/insights/future-supply-chains-europe',
     },
     {
-        slug: 'cold-chain-excellence-what-importers-should-know',
         title: 'Cold Chain Excellence: What Importers Should Know',
         excerpt: 'Best practices for maintaining product quality through temperature-controlled logistics from origin to destination.',
         image: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&h=500&fit=crop',
         category: 'Logistics',
+        path: '/blog/cold-chain-excellence',
     },
     {
-        slug: 'vertical-integration-why-it-matters-agricultural-trade',
         title: 'Vertical Integration: Why It Matters in Agricultural Trade',
         excerpt: 'Understanding how direct farm partnerships and owned facilities create reliability in international supply chains.',
         image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=500&fit=crop',
         category: 'Business Strategy',
+        path: '/blog/vertical-integration-agriculture',
     },
     {
-        slug: 'seasonal-planning-consistent-year-round-supply',
         title: 'Seasonal Planning for Consistent Year-Round Supply',
         excerpt: 'Strategic approaches to ensuring product availability regardless of seasonal production cycles.',
         image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=500&fit=crop',
         category: 'Supply Chain',
+        path: '/blog/seasonal-planning-year-round-supply',
     },
 ]
 
@@ -55,7 +55,7 @@ export default function Insights() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {articles.map((article, index) => (
                         <article
-                            key={article.slug}
+                            key={index}
                             className="card group"
                         >
                             {/* Image */}
@@ -83,7 +83,7 @@ export default function Insights() {
                                     {article.excerpt}
                                 </p>
                                 <Link
-                                    href={`/insights/${article.slug}`}
+                                    href={article.path}
                                     className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all duration-200"
                                 >
                                     Read article
