@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const articles = [
     {
-        slug: 'future-of-fresh-produce-supply-chains-europe',
+        slug: 'future-supply-chains-europe',
         title: 'The Future of Fresh Produce Supply Chains in Europe',
         excerpt: 'How evolving consumer preferences and regulatory changes are reshaping agricultural imports across European markets.',
         image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=500&fit=crop',

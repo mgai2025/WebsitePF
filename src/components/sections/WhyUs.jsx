@@ -25,7 +25,7 @@ const pillars = [
             </svg>
         ),
         headline: '50+ Years of Combined Team Experience',
-        description: 'Founding team and core leadership with deep expertise in agriculture, international trade, and high-growth business scaling. Educational credentials: IIT, IIM, MNIT alumni. Proven track record in building institutional businesses.',
+        description: 'Founding team and core leadership with 50+ years combined expertise in agriculture, international trade, and global business scaling. Educational credentials: IIT and IIM alumni. Previously led teams and projects at Fortune 500 organizations and global enterprises including Microsoft, Deloitte, Paytm, Apollo Hospitals, JP Morgan, and Citi across India, Africa, USA, Singapore, and Europe. Proven track record in building and scaling institutional businesses.',
     },
 ]
 
@@ -73,7 +73,7 @@ export default function WhyUs() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg>
                         <span className="text-text-secondary">
-                            Own production facilities: Mushroom (2 MT/day, scaling to 5 MT/day), Processed foods (10 MT/day by March 2026)
+                            Own production facilities with continuous capacity optimization. Our vertical integration ensures quality control at every stage of the supply chain.
                         </span>
                     </div>
                 </div>

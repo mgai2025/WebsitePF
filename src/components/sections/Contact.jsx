@@ -219,7 +219,7 @@ export default function Contact() {
                         <div className="space-y-6">
                             {/* Email */}
                             <a
-                                href="mailto:contact@premiumfresh.com"
+                                href="mailto:business@fbtradings.com"
                                 className="flex items-start gap-4 p-5 bg-accent rounded-2xl hover:bg-accent-dark transition-colors duration-200 group"
                             >
                                 <div className="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-200">
@@ -229,13 +229,13 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-text-primary mb-1">Email Us</h4>
-                                    <p className="text-primary">contact@premiumfresh.com</p>
+                                    <p className="text-primary">business@fbtradings.com</p>
                                 </div>
                             </a>
 
                             {/* WhatsApp */}
                             <a
-                                href="https://wa.me/919876543210"
+                                href="https://wa.me/918860635702"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-start gap-4 p-5 bg-accent rounded-2xl hover:bg-accent-dark transition-colors duration-200 group"
@@ -247,7 +247,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-text-primary mb-1">WhatsApp</h4>
-                                    <p className="text-primary">+91 98765 43210</p>
+                                    <p className="text-primary">+91 8860635702</p>
                                 </div>
                             </a>
 
