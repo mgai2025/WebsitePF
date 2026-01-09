@@ -27,36 +27,20 @@ export default function Footer() {
                             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                                 <svg
                                     className="w-6 h-6 text-white"
-                                    viewBox="0 0 24 24"
+                                    viewBox="0 0 32 32"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
                                 >
-                                    <path
-                                        d="M12 2L4 7V17L12 22L20 17V7L12 2Z"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M12 8C10.5 8 9 9 9 11C9 13 10.5 14 12 14C13.5 14 15 15 15 17C15 19 13.5 20 12 20"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                    />
-                                    <path
-                                        d="M12 6V8M12 20V22"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                    />
+                                    <path d="M16 26C16 26 21 21 21 15C21 11 18.5 9 16 9C13.5 9 11 11 11 15C11 21 16 26 16 26Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                    <path d="M16 26V15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                                    <path d="M16 15L19 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                                    <path d="M16 18L13 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                                 </svg>
                             </div>
                             <div>
                                 <span className="font-bold text-lg text-white">
-                                    Premium<span className="text-primary">Fresh</span>
+                                    Perfact<span className="text-primary">Foods</span>
                                 </span>
-                                <span className="block text-xs text-gray-400">Exports</span>
                             </div>
                         </div>
                         <p className="text-gray-400 text-sm mb-6 leading-relaxed">
@@ -140,7 +124,7 @@ export default function Footer() {
             <div className="border-t border-gray-800">
                 <div className="container-custom py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
                     <p className="text-gray-500 text-sm">
-                        © {currentYear} Premium Fresh Exports. All rights reserved.
+                        © {currentYear} Perfact Foods. All rights reserved.
                     </p>
                     <div className="flex gap-6">
                     </div>

@@ -4,8 +4,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-    title: 'The Future of Fresh Produce Supply Chains in Europe | Premium Fresh Exports',
-    description: 'How evolving consumer preferences and regulatory changes are reshaping agricultural imports across European markets. Insights from Premium Fresh Exports.',
+    title: 'The Future of Fresh Produce Supply Chains in Europe | Perfact Foods',
+    description: 'How evolving consumer preferences and regulatory changes are reshaping agricultural imports across European markets. Insights from Perfact Foods.',
     openGraph: {
         title: 'The Future of Fresh Produce Supply Chains in Europe',
         description: 'How evolving consumer preferences and regulatory changes are reshaping agricultural imports across European markets.',
@@ -47,7 +47,7 @@ export default function BlogPost() {
                                     PF
                                 </div>
                                 <div>
-                                    <p className="font-medium text-text-primary">Premium Fresh Exports Team</p>
+                                    <p className="font-medium text-text-primary">Perfact Foods Team</p>
                                     <p className="text-text-secondary text-sm">Industry Insights</p>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@ export default function BlogPost() {
                         <section className="mb-12">
                             <h2 className="text-2xl font-bold text-text-primary mb-4">Our Perspective</h2>
                             <p className="text-text-secondary leading-relaxed mb-4">
-                                At Premium Fresh Exports, we believe successful supply chains are built on three pillars:
+                                At Perfact Foods, we believe successful supply chains are built on three pillars:
                             </p>
                             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
                                 <div className="bg-primary/5 rounded-xl p-4 text-center">

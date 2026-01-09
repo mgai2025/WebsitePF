@@ -4,8 +4,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-    title: 'Vertical Integration: Why It Matters in Agricultural Trade | Premium Fresh Exports',
-    description: 'Understanding how direct farm partnerships and owned facilities create reliability in international supply chains. Insights from Premium Fresh Exports.',
+    title: 'Vertical Integration: Why It Matters in Agricultural Trade | Perfact Foods',
+    description: 'Understanding how direct farm partnerships and owned facilities create reliability in international supply chains. Insights from Perfact Foods.',
     openGraph: {
         title: 'Vertical Integration: Why It Matters in Agricultural Trade',
         description: 'Understanding how direct farm partnerships and owned facilities create reliability in international supply chains.',
@@ -47,7 +47,7 @@ export default function BlogPost() {
                                     PF
                                 </div>
                                 <div>
-                                    <p className="font-medium text-text-primary">Premium Fresh Exports Team</p>
+                                    <p className="font-medium text-text-primary">Perfact Foods Team</p>
                                     <p className="text-text-secondary text-sm">Strategy & Operations</p>
                                 </div>
                             </div>
@@ -127,7 +127,7 @@ export default function BlogPost() {
                         <section className="mb-12">
                             <h2 className="text-2xl font-bold text-text-primary mb-4">Our Vertical Integration Model</h2>
                             <p className="text-text-secondary leading-relaxed mb-4">
-                                At Premium Fresh Exports, we control the critical value-adding steps:
+                                At Perfact Foods, we control the critical value-adding steps:
                             </p>
                             <div className="bg-accent rounded-2xl p-6 mb-6">
                                 <ul className="space-y-4">

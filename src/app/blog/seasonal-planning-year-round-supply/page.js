@@ -4,8 +4,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-    title: 'Seasonal Planning for Consistent Year-Round Supply | Premium Fresh Exports',
-    description: 'Strategic approaches to ensuring product availability regardless of seasonal production cycles. Insights from Premium Fresh Exports.',
+    title: 'Seasonal Planning for Consistent Year-Round Supply | Perfact Foods',
+    description: 'Strategic approaches to ensuring product availability regardless of seasonal production cycles. Insights from Perfact Foods.',
     openGraph: {
         title: 'Seasonal Planning for Consistent Year-Round Supply',
         description: 'Strategic approaches to ensuring product availability regardless of seasonal production cycles.',
@@ -47,7 +47,7 @@ export default function BlogPost() {
                                     PF
                                 </div>
                                 <div>
-                                    <p className="font-medium text-text-primary">Premium Fresh Exports Team</p>
+                                    <p className="font-medium text-text-primary">Perfact Foods Team</p>
                                     <p className="text-text-secondary text-sm">Procurement Strategy</p>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@ export default function BlogPost() {
                         <section className="mb-12">
                             <h2 className="text-2xl font-bold text-text-primary mb-4">Our Year-Round Supply Strategy</h2>
                             <p className="text-text-secondary leading-relaxed mb-4">
-                                At Premium Fresh Exports, we ensure consistent availability through:
+                                At Perfact Foods, we ensure consistent availability through:
                             </p>
                             <div className="bg-accent rounded-2xl p-6 mb-6">
                                 <ul className="space-y-4">
