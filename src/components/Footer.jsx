@@ -39,7 +39,7 @@ export default function Footer() {
                             </div>
                             <div>
                                 <span className="font-bold text-lg text-white">
-                                    Perfact<span className="text-primary">Foods</span>
+                                    Perfact<span className="text-primary">Food</span>
                                 </span>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ export default function Footer() {
             <div className="border-t border-gray-800">
                 <div className="container-custom py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
                     <p className="text-gray-500 text-sm">
-                        © {currentYear} Perfact Foods. All rights reserved.
+                        © {currentYear} Perfact Food. All rights reserved.
                     </p>
                     <div className="flex gap-6">
                     </div>

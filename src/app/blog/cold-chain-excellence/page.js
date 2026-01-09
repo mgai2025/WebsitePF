@@ -47,7 +47,7 @@ export default function BlogPost() {
                                     PF
                                 </div>
                                 <div>
-                                    <p className="font-medium text-text-primary">Perfact Foods Team</p>
+                                    <p className="font-medium text-text-primary">Perfact Food Team</p>
                                     <p className="text-text-secondary text-sm">Logistics & Quality</p>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@ export default function BlogPost() {
                         <section className="mb-12">
                             <h2 className="text-2xl font-bold text-text-primary mb-4">How We Ensure Excellence</h2>
                             <p className="text-text-secondary leading-relaxed mb-4">
-                                At Perfact Foods, our cold chain management protocols are rigorous and comprehensive:
+                                At Perfact Food, our cold chain management protocols are rigorous and comprehensive:
                             </p>
                             <div className="bg-accent rounded-2xl p-6 mb-6">
                                 <ul className="space-y-4">

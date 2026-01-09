@@ -55,7 +55,7 @@ export default function Header() {
                         </div>
                         <div className="hidden sm:block">
                             <span className={`font-bold text-lg transition-colors duration-300 ${isScrolled ? 'text-text-primary' : 'text-white'}`}>
-                                Perfact<span className="text-primary">Foods</span>
+                                Perfact<span className="text-primary">Food</span>
                             </span>
                         </div>
                     </Link>

@@ -2,12 +2,12 @@ import './globals.css'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
-    title: 'Perfact Foods | Agricultural Products from India to UK & Europe',
+    title: 'Perfact Food | Agricultural Products from India to UK & Europe',
     description: 'Trusted agricultural exporter from India supplying premium fresh produce, grains, tea, coffee, and spices to UK and European markets. 50+ years of combined team expertise. APEDA certified.',
-    keywords: 'agricultural exports India, fresh produce UK, Basmati rice export, Indian spices Europe, B2B agricultural supplier, APEDA certified exporter, fresh vegetables UK, premium tea export, Perfact Foods',
-    authors: [{ name: 'Perfact Foods' }],
-    creator: 'Perfact Foods',
-    publisher: 'Perfact Foods',
+    keywords: 'agricultural exports India, fresh produce UK, Basmati rice export, Indian spices Europe, B2B agricultural supplier, APEDA certified exporter, fresh vegetables UK, premium tea export, Perfact Food',
+    authors: [{ name: 'Perfact Food' }],
+    creator: 'Perfact Food',
+    publisher: 'Perfact Food',
     formatDetection: {
         email: false,
         address: false,
@@ -18,10 +18,10 @@ export const metadata = {
         canonical: '/',
     },
     openGraph: {
-        title: 'Perfact Foods | Agricultural Products from India',
+        title: 'Perfact Food | Agricultural Products from India',
         description: 'Trusted agricultural exporter from India supplying premium fresh produce to UK and European markets. Backed by 50+ years of combined team expertise.',
         url: '/',
-        siteName: 'Perfact Foods',
+        siteName: 'Perfact Food',
         images: [
             {
                 url: '/images/og-image.jpg',
@@ -35,7 +35,7 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Perfact Foods | Agricultural Products from India',
+        title: 'Perfact Food | Agricultural Products from India',
         description: 'Trusted agricultural exporter from India supplying premium fresh produce to UK and European markets.',
         images: ['/images/og-image.jpg'],
     },
