@@ -41,9 +41,27 @@ export default function Contact() {
 
         setIsSubmitting(true)
 
-        // Simulate form submission
-        await new Promise((resolve) => setTimeout(resolve, 1500))
+        // Construct email body
+        const subject = `New Website Inquiry: ${formData.interest || 'General Custom Inquiry'}`
+        const body = `
+New inquiry received from website:
 
+Name: ${formData.name}
+Company: ${formData.company}
+Email: ${formData.email}
+Phone: ${formData.countryCode} ${formData.phone}
+Interest: ${productInterests.find(i => i.value === formData.interest)?.label || formData.interest}
+
+Message:
+${formData.message}
+        `.trim()
+
+        // Open mailto link
+        const mailtoLink = `mailto:mohit@fbtradings.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+        window.location.href = mailtoLink
+
+        // Show success message
+        await new Promise((resolve) => setTimeout(resolve, 1000))
         setSubmitStatus('success')
         setIsSubmitting(false)
         setFormData({
@@ -284,7 +302,7 @@ export default function Contact() {
 
                             {/* Calendly */}
                             <a
-                                href="https://calendly.com"
+                                href="https://calendly.com/mohitgupta-2005"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-start gap-4 p-5 bg-accent rounded-2xl hover:bg-accent-dark transition-colors duration-200 group"
