@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { countries } from '../../constants/countries'
 
 const productInterests = [
     { value: '', label: 'I\'m interested in...' },
@@ -41,38 +42,47 @@ export default function Contact() {
 
         setIsSubmitting(true)
 
-        // Construct email body
-        const subject = `New Website Inquiry: ${formData.interest || 'General Custom Inquiry'}`
-        const body = `
-New inquiry received from website:
+        try {
+            // Use FormSubmit.co for silent email submission
+            const response = await fetch('https://formsubmit.co/ajax/mohit@fbtradings.com', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: formData.name,
+                    company: formData.company,
+                    email: formData.email,
+                    phone: `${formData.countryCode} ${formData.phone}`,
+                    interest: productInterests.find(i => i.value === formData.interest)?.label || formData.interest,
+                    message: formData.message,
+                    _subject: `New Website Inquiry: ${formData.interest || 'General'}`,
+                    _template: 'table', // Cleaner table format
+                    _captcha: 'false'   // Disable captcha for cleaner UX (optional)
+                })
+            })
 
-Name: ${formData.name}
-Company: ${formData.company}
-Email: ${formData.email}
-Phone: ${formData.countryCode} ${formData.phone}
-Interest: ${productInterests.find(i => i.value === formData.interest)?.label || formData.interest}
-
-Message:
-${formData.message}
-        `.trim()
-
-        // Open mailto link
-        const mailtoLink = `mailto:mohit@fbtradings.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
-        window.location.href = mailtoLink
-
-        // Show success message
-        await new Promise((resolve) => setTimeout(resolve, 1000))
-        setSubmitStatus('success')
-        setIsSubmitting(false)
-        setFormData({
-            name: '',
-            company: '',
-            email: '',
-            phone: '',
-            countryCode: '+91',
-            interest: '',
-            message: '',
-        })
+            if (response.ok) {
+                setSubmitStatus('success')
+                setFormData({
+                    name: '',
+                    company: '',
+                    email: '',
+                    phone: '',
+                    countryCode: '+91',
+                    interest: '',
+                    message: '',
+                })
+            } else {
+                throw new Error('Form submission failed')
+            }
+        } catch (error) {
+            console.error('Form submission error:', error)
+            alert('Something went wrong. Please try again or contact us directly via email.')
+        } finally {
+            setIsSubmitting(false)
+        }
     }
 
     return (
@@ -176,16 +186,11 @@ ${formData.message}
                                                 onChange={handleChange}
                                                 className="w-1/3 px-2 py-3 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 text-text-primary text-sm"
                                             >
-                                                <option value="+91">IN (+91)</option>
-                                                <option value="+44">UK (+44)</option>
-                                                <option value="+1">US (+1)</option>
-                                                <option value="+971">UAE (+971)</option>
-                                                <option value="+61">AU (+61)</option>
-                                                <option value="+33">FR (+33)</option>
-                                                <option value="+49">DE (+49)</option>
-                                                <option value="+31">NL (+31)</option>
-                                                <option value="+65">SG (+65)</option>
-                                                <option value="">Other</option>
+                                                {countries.map((country, index) => (
+                                                    <option key={`${country.code}-${index}`} value={country.code}>
+                                                        {country.name} ({country.code})
+                                                    </option>
+                                                ))}
                                             </select>
                                             <input
                                                 type="tel"
