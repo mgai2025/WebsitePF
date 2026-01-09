@@ -44,7 +44,7 @@ export default function Contact() {
 
         try {
             // Use FormSubmit.co for silent email submission
-            const response = await fetch('https://formsubmit.co/ajax/mohit@fbtradings.com', {
+            const response = await fetch('https://formsubmit.co/ajax/c41cea7ba5a41476a0c4f657a9265905', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
