@@ -206,8 +206,8 @@ export default function BlogPost() {
                                 Contact us to understand how our vertical integration model can benefit your business.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                                <a href="mailto:business@fbtradings.com" className="btn bg-white text-primary hover:bg-gray-100">
-                                    business@fbtradings.com
+                                <a href="mailto:mohit@fbtradings.com" className="btn bg-white text-primary hover:bg-gray-100">
+                                    mohit@fbtradings.com
                                 </a>
                                 <a href="tel:+918860635702" className="btn border-2 border-white text-white hover:bg-white/10">
                                     +91 8860635702

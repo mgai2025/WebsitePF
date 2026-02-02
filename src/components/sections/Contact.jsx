@@ -273,7 +273,7 @@ export default function Contact() {
                         <div className="space-y-6">
                             {/* Email */}
                             <a
-                                href="mailto:business@fbtradings.com"
+                                href="mailto:mohit@fbtradings.com"
                                 className="flex items-start gap-4 p-5 bg-accent rounded-2xl hover:bg-accent-dark transition-colors duration-200 group"
                             >
                                 <div className="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-200">
@@ -283,7 +283,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-text-primary mb-1">Email Us</h4>
-                                    <p className="text-primary">business@fbtradings.com</p>
+                                    <p className="text-primary">mohit@fbtradings.com</p>
                                 </div>
                             </a>
 
