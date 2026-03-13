@@ -117,7 +117,7 @@ export default function Innovation() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                             </svg>
                             <span className="text-text-secondary">
-                                Our vision: Become India's leading fresh produce exporter by volume and value to UK and European markets. Technology roadmap designed to scale from current 200+ annual shipments to 200+ per month within 24 months.
+                                <strong>Our Vision</strong>: Orchestrating the future of global trade. We are scaling our institutional execution platform to handle 2,000+ annual shipments, setting the global standard for predictability and integrity in international commerce.
                             </span>
                         </div>
                     </div>

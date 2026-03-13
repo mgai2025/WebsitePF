@@ -8,6 +8,7 @@ const footerLinks = {
         { name: 'Certifications', href: '#certifications' },
     ],
     resources: [
+        { name: 'Executive Summary', href: '/executive-summary' },
         { name: 'Industry Insights', href: '#insights' },
         { name: 'Contact Us', href: '#contact' },
     ],
@@ -44,7 +45,7 @@ export default function Footer() {
                             </div>
                         </div>
                         <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-                            Premium Agricultural Exports from India. Trusted by UK and European importers for quality and reliability.
+                            Global orchestration of international trade execution. Institutional-grade supply chains built on vertical integration and technical excellence.
                         </p>
                         {/* Social Links */}
                         <div className="flex gap-4">

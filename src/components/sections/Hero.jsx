@@ -28,15 +28,15 @@ export default function Hero() {
 
                     {/* Headline */}
                     <h1 className="text-4xl sm:text-5xl lg:text-display-1 font-bold text-white mb-6 leading-tight animate-slide-up">
-                        Premium Fresh Produce from India
+                        Global Orchestration
                         <span className="block text-primary-light">
-                            — Secured Supply. Guaranteed Quality.
+                            of International Trade
                         </span>
                     </h1>
 
                     {/* Subheading */}
                     <p className="text-lg sm:text-xl text-white/80 mb-10 max-w-2xl leading-relaxed animate-slide-up animation-delay-100">
-                        Trusted by UK and European importers. 200+ annual shipments. Led by IIT and IIM alumni with Fortune 500 experience.
+                        Institutional-grade supply chain execution for UK and European importers. 200+ annual shipments. Led by IIT & IIM alumni with experience at Microsoft, JP Morgan, and Deloitte.
                     </p>
 
                     {/* CTAs */}
@@ -44,8 +44,8 @@ export default function Hero() {
                         <Link href="#products" className="btn-primary text-lg px-8 py-4">
                             Explore Products
                         </Link>
-                        <Link href="#contact" className="btn-white text-lg px-8 py-4">
-                            Schedule a Conversation
+                        <Link href="/executive-summary" className="btn-white text-lg px-8 py-4">
+                            CEO's Executive Summary
                         </Link>
                     </div>
                 </div>

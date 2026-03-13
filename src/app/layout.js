@@ -3,9 +3,9 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import Script from 'next/script'
 
 export const metadata = {
-    title: 'Perfact Food | Agricultural Products from India to UK & Europe',
-    description: 'Trusted agricultural exporter from India supplying premium fresh produce, grains, tea, coffee, and spices to UK and European markets. 50+ years of combined team expertise. APEDA certified.',
-    keywords: 'agricultural exports India, fresh produce UK, Basmati rice export, Indian spices Europe, B2B agricultural supplier, APEDA certified exporter, fresh vegetables UK, premium tea export, Perfact Food',
+    title: 'Perfact Food | Global Trade Orchestration & Execution Platform',
+    description: 'The global execution system for agricultural trade. Built by IIT/IIM alumni and MNC veterans, providing institutional-grade supply chains from India to the UK and Europe.',
+    keywords: 'global trade orchestration, trade execution platform, agricultural exports India, fresh produce UK, supply chain system, institutional ag-trade, APEDA certified exporter, Perfact Food',
     authors: [{ name: 'Perfact Food' }],
     creator: 'Perfact Food',
     publisher: 'Perfact Food',
@@ -19,8 +19,8 @@ export const metadata = {
         canonical: '/',
     },
     openGraph: {
-        title: 'Perfact Food | Agricultural Products from India',
-        description: 'Trusted agricultural exporter from India supplying premium fresh produce to UK and European markets. Backed by 50+ years of combined team expertise.',
+        title: 'Perfact Food | Global Trade Orchestration & Execution Platform',
+        description: 'The global execution system for agricultural trade. Institutional-grade supply chains built by institutional veterans.',
         url: '/',
         siteName: 'Perfact Food',
         images: [
@@ -28,7 +28,7 @@ export const metadata = {
                 url: '/images/og-image.jpg',
                 width: 1200,
                 height: 630,
-                alt: 'Perfact Foods - Agricultural Products from India',
+                alt: 'Perfact Food - Global Trade Orchestration',
             },
         ],
         locale: 'en_GB',
@@ -36,8 +36,8 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Perfact Food | Agricultural Products from India',
-        description: 'Trusted agricultural exporter from India supplying premium fresh produce to UK and European markets.',
+        title: 'Perfact Food | Global Trade Orchestration & Execution Platform',
+        description: 'The global execution system for agricultural trade. Institutional-grade supply chains built by institutional veterans.',
         images: ['/images/og-image.jpg'],
     },
     robots: {
@@ -64,8 +64,8 @@ export default function RootLayout({ children }) {
                         __html: JSON.stringify({
                             '@context': 'https://schema.org',
                             '@type': 'Organization',
-                            name: 'Perfact Foods',
-                            description: 'Premium agricultural exporter from India to UK and European markets',
+                            name: 'Perfact Food',
+                            description: 'Global orchestration of international trade execution platform',
                             url: process.env.NEXT_PUBLIC_SITE_URL || 'https://perfactfood.com',
                             logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://perfactfood.com'}/images/logo.png`,
                             contactPoint: {
