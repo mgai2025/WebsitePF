@@ -53,33 +53,33 @@ export default function ExecutiveSummary() {
                                 When you partner with Perfact Food, you are not just accessing a platform; you are integrating into a <strong>Global Trade Execution System</strong>. We operate on three core institutional principles:
                             </p>
 
-                            <div className="space-y-8 mb-10">
+                            <div className="space-y-12 mb-12">
                                 <div className="flex gap-6">
-                                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">1</div>
+                                    <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary font-bold">01</div>
                                     <div>
-                                        <h3 className="text-heading-3 mb-2">Systemic Execution, Not Individual Transactions</h3>
+                                        <h3 className="text-xl font-bold mb-3 text-text-primary">Network Integrity & Market Stability</h3>
                                         <p className="text-text-secondary leading-relaxed">
-                                            We don't just find products; we engineer supply chains. Our vertical integration means we don't buy from the market; we <i>are</i> the market. By controlling the touchpoints from cultivation to final delivery, we eliminate the volatility that plagues traditional exporters.
+                                            We mitigate the inherent price volatility of the agricultural sector through full-stack vertical integration. By controlling the touchpoints from cultivation to final terminal delivery, we ensure <strong>consistent fulfillment</strong> and precision in timelines. Our system is engineered to absorb market shocks, providing your supply chain with the stability required for institutional scale.
                                         </p>
                                     </div>
                                 </div>
 
                                 <div className="flex gap-6">
-                                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">2</div>
+                                    <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary font-bold">02</div>
                                     <div>
-                                        <h3 className="text-heading-3 mb-2">Institutional Integrity</h3>
+                                        <h3 className="text-xl font-bold mb-3 text-text-primary">Institutional Governance & 360° Visibility</h3>
                                         <p className="text-text-secondary leading-relaxed">
-                                            In an industry often characterized by opacity, we bring the transparency of a public corporation. Our track record of 200+ incident-free annual shipments to the UK and Europe isn't a statistic; it's a testament to a system that defaults to excellence.
+                                            International trade execution is often plagued by opacity. We solve this through <strong>360° visibility</strong> systems that offer data-driven insights at every segment of the lifecycle. Our institutional processes and digital infrastructure transform fragmented information into a single, auditable "source of truth," giving you total control over your procurement operations.
                                         </p>
                                     </div>
                                 </div>
 
                                 <div className="flex gap-6">
-                                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">3</div>
+                                    <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary font-bold">03</div>
                                     <div>
-                                        <h3 className="text-heading-3 mb-2">Strategic Orchestration</h3>
+                                        <h3 className="text-xl font-bold mb-3 text-text-primary">Automated Verification & Technical Excellence</h3>
                                         <p className="text-text-secondary leading-relaxed">
-                                            We view ourselves as the operating system for your agricultural procurement. Whether it is seasonal planning or cold-chain optimization, we manage the complexity so you can focus on growth and scale.
+                                            Quality management is a technical discipline, not a manual one. We are integrating <strong>proprietary AI and computer vision</strong> protocols to automate product and process verification. From real-time condition monitoring to cognitive visual analysis at the source, we replace traditional guesswork with technical certainty.
                                         </p>
                                     </div>
                                 </div>
