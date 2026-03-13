@@ -19,11 +19,11 @@ export default function ExecutiveSummary() {
                         <span className="inline-block px-4 py-1.5 rounded-full bg-primary/5 text-primary text-sm font-semibold tracking-widest uppercase mb-4">
                             Strategic Outlook 2026
                         </span>
-                        <h1 className="text-display-2 md:text-display-1 text-text-primary mb-6">
-                            Beyond Commodities
+                        <h1 className="text-display-2 md:text-display-1 text-text-primary mb-6 text-balance">
+                            The Architecture of Trade
                         </h1>
                         <p className="text-xl text-text-secondary italic">
-                            "The world does not need more exporters; it needs more orchestrators."
+                            "Orchestrating global trade execution through institutional rigor and technical excellence."
                         </p>
                     </div>
 
