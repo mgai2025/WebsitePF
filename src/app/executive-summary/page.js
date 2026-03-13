@@ -17,7 +17,7 @@ export default function ExecutiveSummary() {
                     {/* Breadcrumb / Top Label */}
                     <div className="mb-12 text-center animate-fade-in">
                         <span className="inline-block px-4 py-1.5 rounded-full bg-primary/5 text-primary text-sm font-semibold tracking-widest uppercase mb-4">
-                            Strategic Outlook 2024
+                            Strategic Outlook 2026
                         </span>
                         <h1 className="text-display-2 md:text-display-1 text-text-primary mb-6">
                             Beyond Commodities
@@ -35,31 +35,39 @@ export default function ExecutiveSummary() {
                                 <span>Perfact Food Global</span>
                             </div>
 
-                            <p className="text-lg leading-relaxed mb-6 font-medium">
-                                Dear Partners and Stakeholders,
+                            <p className="text-lg leading-relaxed mb-8 font-semibold text-primary">
+                                To our Global Partners,
                             </p>
 
                             <p className="text-lg leading-relaxed mb-6">
-                                For decades, international trade has been viewed as a series of disconnected, linear transactions. In the traditional model, an exporter moves a product, a middleman adds a margin, and a buyer hopes for consistency. At <strong>Perfact Food</strong>, we represent a paradigm shift, proving that this antiquated model is transitionally obsolete in a data-driven world.
+                                For decades, international trade has been viewed as a series of disconnected, linear transactions. In the traditional model, an exporter moves a product and a middleman adds a margin.
                             </p>
 
                             <p className="text-lg leading-relaxed mb-10">
-                                Our DNA is not rooted in traditional commodity trading. We were built by institutional veterans—alumni of <strong>IIT and IIM</strong> who refined their operational rigor at global entities like <strong>Microsoft, JP Morgan, and Deloitte</strong>. We have taken the precision of technology and high finance and applied it to the most fundamental sector of human existence: Global Agricultural Supply Chains.
+                                At <strong>Perfact Food</strong>, we represent a paradigm shift. We are proving that this antiquated model is transitionally obsolete in a data-driven world. We don't just move goods; we architect execution systems.
                             </p>
 
-                            <h2 className="text-heading-2 text-primary mb-6">The Shift from Platform to System</h2>
-
-                            <p className="text-lg leading-relaxed mb-6">
-                                When you partner with Perfact Food, you are not just accessing a platform; you are integrating into a <strong>Global Trade Execution System</strong>. We operate on three core institutional principles:
+                            <p className="text-lg leading-relaxed mb-6 font-medium">
+                                Our DNA is not rooted in commodity trading.
                             </p>
 
-                            <div className="space-y-12 mb-12">
+                            <p className="text-lg leading-relaxed mb-10">
+                                We were built by institutional veterans—alumni of <strong>IIT and IIM</strong> who refined their operational rigor at global entities like <strong>Microsoft, JP Morgan, and Deloitte</strong>. We have taken the precision of technology and high finance and applied it to the most fundamental sector: Global Agricultural Supply Chains.
+                            </p>
+
+                            <h2 className="text-heading-2 text-primary mb-8 border-l-4 border-primary pl-6">The Shift from Platform to System</h2>
+
+                            <p className="text-lg leading-relaxed mb-8 font-medium">
+                                Partnering with Perfact Food means integrating into a <strong>Global Trade Execution System</strong>. We operate on three core institutional principles:
+                            </p>
+
+                            <div className="space-y-12 mb-16">
                                 <div className="flex gap-6">
                                     <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary font-bold">01</div>
                                     <div>
                                         <h3 className="text-xl font-bold mb-3 text-text-primary">Network Integrity & Market Stability</h3>
                                         <p className="text-text-secondary leading-relaxed">
-                                            We mitigate the inherent price volatility of the agricultural sector through full-stack vertical integration. By controlling the touchpoints from cultivation to final terminal delivery, we ensure <strong>consistent fulfillment</strong> and precision in timelines. Our system is engineered to absorb market shocks, providing your supply chain with the stability required for institutional scale.
+                                            We mitigate price volatility through full-stack vertical integration. By controlling touchpoints from cultivation to delivery, we ensure <strong>consistent fulfillment</strong> and precision in timelines.
                                         </p>
                                     </div>
                                 </div>
@@ -69,7 +77,7 @@ export default function ExecutiveSummary() {
                                     <div>
                                         <h3 className="text-xl font-bold mb-3 text-text-primary">Institutional Governance & 360° Visibility</h3>
                                         <p className="text-text-secondary leading-relaxed">
-                                            International trade execution is often plagued by opacity. We solve this through <strong>360° visibility</strong> systems that offer data-driven insights at every segment of the lifecycle. Our institutional processes and digital infrastructure transform fragmented information into a single, auditable "source of truth," giving you total control over your procurement operations.
+                                            We solve trade opacity through systems that offer data-driven insights at every segment. Our infrastructure transforms info into a single, auditable "source of truth" for your procurement.
                                         </p>
                                     </div>
                                 </div>
@@ -79,21 +87,31 @@ export default function ExecutiveSummary() {
                                     <div>
                                         <h3 className="text-xl font-bold mb-3 text-text-primary">Automated Verification & Technical Excellence</h3>
                                         <p className="text-text-secondary leading-relaxed">
-                                            Quality management is a technical discipline, not a manual one. We are integrating <strong>proprietary AI and computer vision</strong> protocols to automate product and process verification. From real-time condition monitoring to cognitive visual analysis at the source, we replace traditional guesswork with technical certainty.
+                                            Quality management is a technical discipline. We use <strong>proprietary AI and computer vision</strong> to automate verification. From real-time monitoring to cognitive analysis, we replace guesswork with technical certainty.
                                         </p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="bg-primary/5 rounded-2xl p-8 mb-12 border-l-4 border-primary">
+                            <div className="bg-primary/5 rounded-2xl p-8 mb-12 border-l-4 border-primary shadow-sm">
                                 <h2 className="text-heading-3 text-text-primary mb-4">The Institutional Mandate</h2>
                                 <p className="text-lg leading-relaxed text-text-secondary italic">
-                                    "Our objective is not simply to facilitate trade, but to redefine its execution. We are building the infrastructure that allows global commerce to move with the speed of data and the reliability of engineering. When the system works, the transaction becomes invisible, leaving only the value."
+                                    "Our objective is not simply to facilitate trade, but to redefine its execution. We are building the infrastructure that allows global commerce to move with the speed of data and the reliability of engineering."
                                 </p>
                             </div>
 
+                            <h2 className="text-heading-2 text-primary mb-8 border-l-4 border-primary pl-6">The Operational Blueprint</h2>
+
+                            <p className="text-lg leading-relaxed mb-6">
+                                We are scaling our infrastructure to support 2,000+ annual shipments, focusing on the specific requirements of the UK and European regulated markets.
+                            </p>
+
                             <p className="text-lg leading-relaxed mb-10">
-                                We invite you to experience international trade as it was meant to be: a seamless, professional, and predictable extension of your own business.
+                                This is not a marketplace. This is a <strong>managed environment</strong> built for organizations that require absolute predictability in an unpredictable world.
+                            </p>
+
+                            <p className="text-lg leading-relaxed mb-10 font-medium">
+                                We invite you to experience international trade as a seamless, professional, and predictable extension of your own business.
                             </p>
 
                             <div className="border-t border-gray-200 pt-10 mt-10">
