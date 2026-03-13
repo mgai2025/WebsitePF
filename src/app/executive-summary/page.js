@@ -40,7 +40,7 @@ export default function ExecutiveSummary() {
                             </p>
 
                             <p className="text-lg leading-relaxed mb-6">
-                                For decades, international trade has been viewed as a series of disconnected, linear transactions. In the traditional model, an exporter moves a product, a middleman adds a margin, and a buyer hopes for consistency. At <strong>Perfact Food</strong>, we have spent the last decade proving that this model is obsolete.
+                                For decades, international trade has been viewed as a series of disconnected, linear transactions. In the traditional model, an exporter moves a product, a middleman adds a margin, and a buyer hopes for consistency. At <strong>Perfact Food</strong>, we represent a paradigm shift, proving that this antiquated model is transitionally obsolete in a data-driven world.
                             </p>
 
                             <p className="text-lg leading-relaxed mb-10">
@@ -85,19 +85,38 @@ export default function ExecutiveSummary() {
                                 </div>
                             </div>
 
+                            <div className="bg-primary/5 rounded-2xl p-8 mb-12 border-l-4 border-primary">
+                                <h2 className="text-heading-3 text-text-primary mb-4">The Institutional Mandate</h2>
+                                <p className="text-lg leading-relaxed text-text-secondary italic">
+                                    "Our objective is not simply to facilitate trade, but to redefine its execution. We are building the infrastructure that allows global commerce to move with the speed of data and the reliability of engineering. When the system works, the transaction becomes invisible, leaving only the value."
+                                </p>
+                            </div>
+
                             <p className="text-lg leading-relaxed mb-10">
                                 We invite you to experience international trade as it was meant to be: a seamless, professional, and predictable extension of your own business.
                             </p>
 
                             <div className="border-t border-gray-200 pt-10 mt-10">
-                                <div className="flex items-center gap-6">
-                                    <div className="w-20 h-20 rounded-full bg-gray-200 overflow-hidden grayscale">
-                                        <div className="w-full h-full bg-primary/20 flex items-center justify-center text-primary font-bold text-2xl italic">MG</div>
+                                <div className="flex flex-col md:flex-row md:items-start gap-8">
+                                    <div className="flex-shrink-0">
+                                        <div className="w-24 h-24 rounded-2xl bg-primary/10 flex items-center justify-center text-primary font-bold text-3xl italic">MG</div>
                                     </div>
-                                    <div>
-                                        <p className="text-xl font-bold text-text-primary mb-1">Mohit Gupta</p>
-                                        <p className="text-text-secondary uppercase tracking-widest text-xs font-semibold">Founder & CEO, Perfact Food</p>
-                                        <p className="text-text-light text-sm italic">Alumnus, IIT & IIM</p>
+                                    <div className="space-y-4">
+                                        <div>
+                                            <p className="text-lg font-bold text-text-primary flex items-center gap-3">
+                                                Mohit Gupta, CFA
+                                                <a href="https://www.linkedin.com/in/mohitgupta16/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-dark transition-colors">
+                                                    <svg className="w-5 h-5 fill-currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
+                                                </a>
+                                            </p>
+                                            <p className="text-text-secondary font-medium">Founder & CEO, Perfact Food</p>
+                                            <p className="text-text-light text-sm">(A Flowbotics Technologies Company)</p>
+                                        </div>
+                                        <div className="text-sm text-text-secondary border-l-2 border-primary/20 pl-4 space-y-1">
+                                            <p>IIT Delhi | IIM Calcutta</p>
+                                            <p>Ex-Microsoft | Ex-Paytm | Ex-Deloitte | Global Consulting (G-SIBs)</p>
+                                            <p className="font-mono pt-1">M: +91 886 063 5702</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
